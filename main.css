@@ -161,3 +161,64 @@ nav ul{
 .news-container:hover > .popular-news-text{
     bottom: 10px;
 }
+
+.more-news{
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color:#fff;
+    padding: 0 5%;
+    text-align: justify;
+}
+
+.more-news img{
+    width: 100%;
+}
+
+.news-section{
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin:auto 0;
+    border-radius: 5px;
+}
+
+.world,
+.sport{
+    flex-basis:45% ;
+}
+
+.world h2{
+    background-color: purple;
+    padding: 0 10px;
+    margin:10px 0 0 0;
+}
+
+.sport h2{
+    background-color: royalblue;
+    padding: 0 10px;
+    margin:10px 0 0 0;
+}
+
+.recent-news{
+    display: flex;
+}
+
+.recent-news img{
+    
+    height: 70px;
+    width: 70px;
+    margin:10px;
+}
+
+.recent-news p{
+    font-size: 14px;
+    font-weight: bold;
+    margin:auto;
+}
