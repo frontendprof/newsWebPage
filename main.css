@@ -1,0 +1,38 @@
+
+
+body{
+    margin:0;
+    padding:0;
+
+}
+
+header{
+    background-color: rgb(221, 130, 130);
+    color:#fff;
+}
+
+.web-header{
+    padding: 20px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.web-header img{
+    width: 100px;
+    height: 100px;
+    margin:0 30px;
+}
+
+.web-header h1{
+    margin:0 auto;
+}
+
+.social-icons{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.social-icons i{
+    margin: 0 8px;
+}
