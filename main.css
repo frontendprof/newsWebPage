@@ -103,6 +103,7 @@ nav ul{
 
 #popular-news{
     display: flex;
+    flex-wrap: wrap;
     margin:30px 5%;
 }
 #popular-news img{
@@ -164,6 +165,7 @@ nav ul{
 
 .more-news{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #000;
     color:#fff;
@@ -177,6 +179,7 @@ nav ul{
 
 .news-section{
     display: flex;
+    flex-wrap: wrap;
     flex-basis: 70%;
     justify-content: space-between;
 }
@@ -185,6 +188,7 @@ aside{
     flex-basis: 25%;
     padding: 10px;
     border: 1px solid #fff;
+    border-radius: 10px;
     margin:auto 0;
     border-radius: 5px;
 }
@@ -221,4 +225,88 @@ aside{
     font-size: 14px;
     font-weight: bold;
     margin:auto;
+}
+
+.social-links{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: space-between;
+}
+
+.social-icons-footer i{
+    font-size: 2rem;
+    padding:5px;
+}
+
+.social-links section{
+    flex-basis: 30%;
+}
+
+.footer-btn{
+    display: block;
+    border:1px solid rgb(44, 4, 187);
+    color:rgb(64, 4, 230);
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: #fff;
+    margin:20px auto;
+    padding:10px 20px;
+    cursor: pointer;
+}
+
+.footer-btn:hover{
+    color:#fff;
+    background-color: rgb(44,4,187);
+}
+
+.copyright{
+    width: 100%;
+    background-color: #000;
+    color:#fff;
+    padding:5px;
+    text-align: center;
+}
+
+@media only screen and (max-width:600px){
+    .web-header img{
+        width: 35px;
+        height:35px;
+        padding:5px
+    }
+
+    .web-header h1{
+        font-size: 15px;
+    }
+
+    .breaking-news-section{
+        padding:10px;
+        flex-wrap: wrap;
+        height: 70px;
+    }
+
+    .navbar-toggler-icon{
+        background-image: url(./images/menu.jpg);
+    }
+
+    .navbar-collapse{
+        background-color: #000;
+        z-index: 20;
+    }
+
+    #featured{
+        flex:auto;
+    }
+
+    .news-section, aside, .world, .sport, .social-links section{
+        flex-basis: 100%;
+    }
+
+    .social-links section{
+        padding: 15px 0;
+    }
+
+    aside{
+        border-width: 0;
+    }
 }
